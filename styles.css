@@ -9,14 +9,15 @@ body {
 
 .hero {
     background-color: #2E6B4F;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-card {
     padding: 28px 36px;
     width: 460px;
-    height: 206px;
-    margin-right: auto;
-    margin-left: auto;
     background-color: white;
     border-radius: 16px;
 }
