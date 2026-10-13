@@ -53,3 +53,11 @@ body {
     font-size: 16px;
     font-family: "Inter", sans-serif;
 }
+
+img {
+    width: 100px;
+}
+
+.card-container {
+    display: flex;
+}
