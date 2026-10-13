@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.hero {
+    background-color: #2E6B4F;
+}
+
+.hero-card {
+    padding: 28px 36px;
+    width: 460px;
+    height: 206px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 16px;
+}
+
+#city {
+    margin: 0 auto 12px auto;
+    font-size: 12px;
+    background-color: #C8E66B;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1F4D3A;
+
+}
+
+#title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #1F4D3A;
+}
+
+#intro {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
