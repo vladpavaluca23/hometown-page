@@ -9,6 +9,9 @@ body {
 
 .hero {
     background-color: #2E6B4F;
+    background-image: url("images/cluj-background.jpg");
+    background-size: cover;
+    background-position: center;
     height: 360px;
     display: flex;
     align-items: center;
