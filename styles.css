@@ -54,10 +54,35 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-img {
-    width: 100px;
+.activities {
+    background-color: #EEF6F0;
+}
+
+.activity-image {
+    height: 120px;
+}
+
+.activity-title {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.activity-description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
 }
 
 .card-container {
     display: flex;
+    justify-content: space-around;
+}
+
+.card-activity {
+    width: 200px;
+    height: 303px;
+    padding: 16px;
 }
