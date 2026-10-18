@@ -56,16 +56,25 @@ body {
 
 .activities {
     background-color: #EEF6F0;
+    padding: 56px 32px;
 }
 
 .activity-image {
     height: 120px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .activity-title {
     margin-top: 16px;
     margin-bottom: 8px;
     text-align: left;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1F4D3A;
+
 }
 
 .activity-description {
@@ -74,15 +83,30 @@ body {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     text-align: left;
+    font-weight: 400;
+    color: #5A5A5A;
 }
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 .card-activity {
     width: 200px;
     height: 303px;
     padding: 16px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+#activities-header {
+    margin: 0 0 32px 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #1F4D3A;
+    font-size: 26px;
+
 }
