@@ -108,5 +108,64 @@ body {
     font-weight: 600;
     color: #1F4D3A;
     font-size: 26px;
+}
 
+.guide-section {
+    padding: 56px 32px;
+    background-color: white;
+}
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    background-color: #1F4D3A;
+    border-radius: 16px;
+    color: white;
+    padding: 32px;
+    gap: 28px;
+    margin: 0 auto;
+
+}
+
+.guide-info {
+    text-align: left;
+}
+
+#guide-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+#guide-description {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#guide-title {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+#name {
+    margin: 16px 0 0 0;
+    color: #C8E66B;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+#occupation {
+    margin: 0;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #CFE3D6;
 }
