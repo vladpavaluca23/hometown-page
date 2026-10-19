@@ -1,35 +1,33 @@
 # Hometown Homepage – Cluj-Napoca
 
-A one-page guide to Cluj-Napoca: the top things to do in the city
-and a local guide who can show you around.
-Solo project from the Scrimba Fullstack Developer Path (HTML & CSS module),
-built locally in VS Code from a Figma design.
+My solo project for the HTML & CSS module of the Scrimba Fullstack Path.
+A small homepage about Cluj-Napoca, the city where I study.
 
-**Live:** _(coming soon)_
+**Live:** https://vladpavaluca23.github.io/hometown-page/
 
 ## Built with
 
-- HTML
-- CSS (no frameworks)
-- Google Fonts (Poppins, Inter)
+HTML, CSS and Google Fonts (Poppins, Inter)
 
-## What I practised
+## Decisions I made
 
-- Translating a Figma design into code: colors, fonts and spacing
-- A hero section with a background image
-- A row of cards side by side
-- Heading hierarchy (h1 → h2 → h3)
-
-## Design decisions
-
-_(where the design didn't specify something, what I chose and why)_
+- The activity cards always have the same height. I didn't set a fixed
+  height, flexbox stretches them to match the tallest card.
+- Photos are cropped with `object-fit: cover` (cards) and
+  `background-size: cover` (hero), so they don't get squashed.
+- The page is desktop only for now. On small screens the cards get too
+  narrow and the guide card doesn't fit. I'll fix this when I learn
+  responsive design.
 
 ## What I learned
 
-_(to be filled in after finishing)_
+- Flexbox only aligns the direct children. To center the guide card I used
+  `margin: 0 auto` on the card itself.
+- `object-fit: cover` stops images from getting stretched. It's like
+  `background-size: cover`, but for `<img>`.
 
 ## Credits
 
-- Brief: Scrimba ("Hometown Homepage" solo project)
-- Design: custom Figma design made with AI assistance, based on the Scrimba brief
-- Photos: _(photographer + source for each photo)_
+- Project brief: Scrimba
+- Design: made in Figma with help from AI
+- Photos: Tamas Pap, Val Vesa, Lucas Sandor and Marian Muraru on Unsplash
