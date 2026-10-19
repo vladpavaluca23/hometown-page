@@ -169,3 +169,12 @@ body {
     font-weight: 400;
     color: #CFE3D6;
 }
+
+footer {
+    padding: 20px;
+    background-color: #163A2B;
+    color: #CFE3D6;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
