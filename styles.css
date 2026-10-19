@@ -5,6 +5,7 @@
 body {
     text-align: center;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -51,7 +52,6 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
 }
 
 .activities {
@@ -81,22 +81,18 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 14px;
-    font-family: "Inter", sans-serif;
     text-align: left;
-    font-weight: 400;
     color: #5A5A5A;
 }
 
 .card-container {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 24px;
 }
 
 .card-activity {
     width: 200px;
-    height: 303px;
     padding: 16px;
     background-color: white;
     border-radius: 12px;
@@ -112,7 +108,6 @@ body {
 
 .guide-section {
     padding: 56px 32px;
-    background-color: white;
 }
 
 .guide-card {
@@ -142,9 +137,7 @@ body {
 #guide-description {
     margin: 0;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
     font-style: italic;
-    font-weight: 400;
 }
 
 #guide-title {
@@ -165,8 +158,6 @@ body {
 #occupation {
     margin: 0;
     font-size: 13px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     color: #CFE3D6;
 }
 
@@ -175,6 +166,4 @@ footer {
     background-color: #163A2B;
     color: #CFE3D6;
     font-size: 13px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
 }
