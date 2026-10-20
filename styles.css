@@ -167,3 +167,8 @@ footer {
     color: #CFE3D6;
     font-size: 13px;
 }
+
+#city:hover {
+    color: #C8E66B;
+    background-color: #1F4D3A;
+}
